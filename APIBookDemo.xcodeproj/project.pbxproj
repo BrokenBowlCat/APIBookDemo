@@ -13,6 +13,7 @@
 		2059078F2907BD9800A15B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2059078D2907BD9800A15B06 /* Main.storyboard */; };
 		205907912907BD9900A15B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205907902907BD9900A15B06 /* Assets.xcassets */; };
 		205907942907BD9900A15B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205907922907BD9900A15B06 /* LaunchScreen.storyboard */; };
+		205907A02907D02D00A15B06 /* DogAPIStruc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2059079F2907D02D00A15B06 /* DogAPIStruc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		205907902907BD9900A15B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205907932907BD9900A15B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205907952907BD9900A15B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2059079F2907D02D00A15B06 /* DogAPIStruc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPIStruc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,10 @@
 		205907862907BD9800A15B06 /* APIBookDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2059079C2907C24400A15B06 /* Model */,
 				205907872907BD9800A15B06 /* AppDelegate.swift */,
 				205907892907BD9800A15B06 /* SceneDelegate.swift */,
+				2059079F2907D02D00A15B06 /* DogAPIStruc.swift */,
 				2059078B2907BD9800A15B06 /* ViewController.swift */,
 				2059078D2907BD9800A15B06 /* Main.storyboard */,
 				205907902907BD9900A15B06 /* Assets.xcassets */,
@@ -65,6 +69,13 @@
 				205907952907BD9900A15B06 /* Info.plist */,
 			);
 			path = APIBookDemo;
+			sourceTree = "<group>";
+		};
+		2059079C2907C24400A15B06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2059078C2907BD9800A15B06 /* ViewController.swift in Sources */,
+				205907A02907D02D00A15B06 /* DogAPIStruc.swift in Sources */,
 				205907882907BD9800A15B06 /* AppDelegate.swift in Sources */,
 				2059078A2907BD9800A15B06 /* SceneDelegate.swift in Sources */,
 			);
